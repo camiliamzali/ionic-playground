@@ -1,3 +1,9 @@
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
+  <ion-menu content-id="menu" type="overlay">
+    <ion-list>
+          <ion-item color="primary">Hello</ion-item>
+          <ion-item color="secondary">World</ion-item>
+    </ion-list>
+  </ion-menu>
+  <ion-router-outlet id="menu"></ion-router-outlet>
 </ion-app>
