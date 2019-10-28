@@ -2,16 +2,16 @@
   <ion-menu content-id="menu" type="overlay">
     <ion-list>
       <ion-header>
-        <ion-title>
+        <ion-title padding>
           Pocket Notebook
         </ion-title>
       </ion-header>
-
-      <ion-item routerLink="/home"><i class="icon ion-home"></i>Home</ion-item>
+      <ion-item routerLink="/home"><ion-icon slot="icon-only" name="home"></ion-icon>
+Home</ion-item>
       <ion-item routerLink="/library">Library</ion-item>
       <ion-item routerLink="/favorites">Favorites</ion-item>
       <ion-item routerLink="/preferences">Preferences</ion-item>
-      <ion-item routerLink="/home">Settings</ion-item>
+      <ion-item routerLink="/settings">Settings</ion-item>
 
     </ion-list>
   </ion-menu>
